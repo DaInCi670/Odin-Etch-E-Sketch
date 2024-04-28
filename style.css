@@ -2,4 +2,58 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background-color: #ededed;
+  font-family: sans-serif;
+  color: #000000e1;
+}
+
+.etch-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.etch-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.etch-menu-container {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 30px;
+}
+
+.etch-menu {
+  border: 1px solid #000000e1;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-size: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.05s ease-in;
+}
+
+.etch-menu:hover {
+  transform: scale(1.04);
+  background-color: #cfcece;
+}
+
+.etch-box {
+  width: 560px;
+  height: 560px;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.etch-menu-highlight {
+  background-color: #000000e1;
+  color: white;
+}
+
+.etch-menu-highlight:hover {
+  background-color: #000000e1;
+  color: white;
 }
