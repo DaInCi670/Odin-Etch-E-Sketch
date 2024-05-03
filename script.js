@@ -37,7 +37,7 @@ function createGrid(size) {
       if (etchEraser.classList[1] === "etch-menu-highlight") {
         git.style.backgroundColor = "white";
       } else if (etchRainbow.classList[1] === "etch-menu-highlight") {
-        git.style.backgroundColor = `rgb(${randomizer()}, ${randomizer()}, ${randomizer()}, )`;
+        git.style.backgroundColor = `rgb(${randomizer()}, ${randomizer()}, ${randomizer()})`;
       } else git.style.backgroundColor = "black";
     });
   }
