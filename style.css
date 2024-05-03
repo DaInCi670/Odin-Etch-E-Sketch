@@ -53,7 +53,7 @@ body {
 }
 
 .etch-menu-highlight {
-  background-color: #000000e1;
+  background-color: rgba(0, 0, 0, 0.882);
   color: white;
 }
 
