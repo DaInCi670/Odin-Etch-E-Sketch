@@ -3,8 +3,9 @@ body {
   margin: 0;
   box-sizing: border-box;
   background-color: #ededed;
-  font-family: sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #000000e1;
+  user-select: none;
 }
 
 .etch-header {
@@ -46,6 +47,9 @@ body {
   height: 560px;
   background-color: white;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: flex-start;
 }
 
 .etch-menu-highlight {
@@ -56,4 +60,21 @@ body {
 .etch-menu-highlight:hover {
   background-color: #000000e1;
   color: white;
+}
+
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.black-color {
+  background-color: black;
 }

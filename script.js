@@ -17,6 +17,7 @@ const buttonArr = [
   etchEraser,
 ];
 
+//Function to create grid
 function createGrid(size) {
   if (etchBox.innerHTML) {
     etchBox.innerHTML = "";
@@ -42,6 +43,7 @@ function createGrid(size) {
   }
 }
 
+//Function to generate random numbers(for colors)
 function randomizer() {
   let rainbow = Math.ceil(Math.random() * 255);
   return rainbow;
